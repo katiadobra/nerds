@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NЁRDS | Магазин</title>
+        <meta charset="utf-8">
+        <base href="http://barbershop-borodinski.ru/rybalko/nerds/">
+        <link href="images/favicon.png" type="image/png" rel="shortcut icon">
+        <link rel="stylesheet" href="css/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,500&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
+    </head>
+<body>
+<!-- Header -->  
+    <header class="page-header">
+        <div class="layout-center-wrapper">
+            <div class="header-top clearfix">
+                <div class="header-top__logo"><a href="index.html"><img src="images/header-logo.png" alt="NЁRDS"></a></div>
+                <ul class="header-top__menu">
+                    <li><a href="index.html">Студия</a></li>
+                    <li><a href="javascript:void(0)">Клиенты</a></li>
+                    <li><a href="shop.html"><span class="header-menu-active">Магазин</span></a></li>
+                    <li><a href="javascript:void(0)">Контакты</a></li>
+                </ul>
+                <div class="header-top__cart">
+                    <a class="header-top__cart-enter" href="#">Корзина</a>
+                </div>
+            </div>
+            <div class="shop-title">
+                <h1>Добро пожаловать в магазин<br>готовых макетов</h1>
+            </div>
+        </div>
+    </header>
+<!-- Main -->
+    <div class="layout-center-wrapper">
+        <div class="shop-catalog clearfix">
+            <div class="catalog-filters">
+                <form class="catalog-filter">
+					<div class="catalog-filter--block">
+						<h2 class="filter-title">Стоимость:</h2>
+						<div class="range-controls">
+							<div class="scale"><div class="bar"></div></div>
+							<div class="toggle min-toggle"></div>
+							<div class="toggle max-toggle"></div>
+						</div>
+						<div class="price-controls">
+							<label>от <input class="min-price" type="text" value="0"></label>
+							<div class="max-price--absolute"><label>до <input class="max-price" type="text" value="15 000"></label></div>
+						</div>
+					</div>
+                    <h2 class="filter-title">Сетка:</h2>
+                    <input type="radio" name="grid" value="responsive" id="responsive" checked><label for="responsive">Адаптивная</label>
+                    <input type="radio" name="grid" value="fixed" id="fixed"><label for="fixed">Фиксированная</label>
+                    <input type="radio" name="grid" value="fluid" id="fluid"><label for="fluid">Резиновая</label><br>
+                    <h2 class="filter-title">Особенности:</h2>
+                    <input type="checkbox" name="slider" id="slider-field" checked>
+                    <label for="slider-field">Слайдер</label>
+                    <input type="checkbox" name="features" id="features-field">
+                    <label for="features-field">Блок преимуществ</label>
+                    <input type="checkbox" name="news" id="news-field" checked>
+                    <label for="news-field">Новости</label>
+                    <input type="checkbox" name="gallery" id="gallery-field">
+                    <label for="gallery-field">Галерея</label>
+                    <input type="checkbox" name="cart" id="cart-field">
+                    <label for="cart-field">Корзина</label>
+                </form>
+            </div>
+        <!-- Catalog Items -->
+                    <div class="catalog-content">
+                        <ul class="items-filter">
+                            <li>Сортировать:</li>
+                            <li><a class="items-filter-active" href="javascript:void(0)"><span>по цене</span></a></li>
+                            <li><a href="javascript:void(0)"><span>по типу</span></a></li>
+                            <li><a href="javascript:void(0)"><span>по функционалу</span></a></li>
+                            <li><a class="item-sort-down item-sort-down-active" href="javascript:void(0)">по убыванию</a></li>
+                            <li><a class="item-sort-up" href="javascript:void(0)">по возрастанию</a></li>
+                        </ul>
+                        <div class="catalog-items">
+                            <div class="catalog-item">
+                                <div class="item-image"><img src="images/item1.jpg" alt="" /></div>
+                                <div class="item-action">
+                                    <h3 class="item-title">Aviator</h3>
+                                    <p class="item-price">Интернет-магазин с личным кабинетом</p>
+                                    <a class="btn item-btn" title="Купить" href="javascript:void(0)">12 000 р.</a>
+                                </div>
+                            </div>
+                            <div class="catalog-item">
+                                <div class="item-image"><img src="images/item2.jpg" alt="" /></div>
+                                <div class="item-action">
+                                    <h3 class="item-title">Sunset</h3>
+                                    <p class="item-price">Сайт-визитка с личным кабинетом</p>
+                                    <a  class="btn item-btn" title="Купить" href="javascript:void(0)">10 000 р.</a>
+                                </div>
+                            </div>
+                            <div class="catalog-item">
+                                <div class="item-image"><img src="images/item3.jpg" alt="" /></div>
+                                <div class="item-action">
+                                    <h3 class="item-title">Forte</h3>
+                                    <p class="item-price">Интернет-магазин с личным кабинетом</p>
+                                    <a class="btn item-btn" title="Купить" href="javascript:void(0)">10 000 р.</a>
+                                </div>
+                            </div>
+                            <div class="catalog-item">
+                                <div class="item-image"><img src="images/item4.jpg" alt="" /></div>
+                                <div class="item-action">
+                                    <h3 class="item-title">Marquee</h3>
+                                    <p class="item-price">Интернет-магазин с личным кабинетом</p>
+                                    <a class="btn item-btn" title="Купить" href="javascript:void(0)">12 000 р.</a>
+                                </div>
+                            </div>
+                            <div class="catalog-item">
+                                <div class="item-image"><img src="images/item5.jpg" alt="" /></div>
+                                <div class="item-action">
+                                    <h3 class="item-title">Avenue</h3>
+                                    <p class="item-price">Интернет-магазин с личным кабинетом</p>
+                                    <a class="btn item-btn" title="Купить" href="javascript:void(0)">12 000 р.</a>
+                                </div>
+                            </div>
+                            <div class="catalog-item">
+                                <div class="item-image"><img src="images/item6.jpg" alt="" /></div>
+                                <div class="item-action">
+                                    <h3 class="item-title">Dovetail</h3>
+                                    <p class="item-price">Интернет-магазин с личным кабинетом</p>
+                                    <a class="btn item-btn" title="Купить" href="javascript:void(0)">10 000 р.</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="catalog-paginator">
+                            <a class="active" href="#">1</a>
+                            <a href="javascript:void(0)">2</a>
+                            <a href="javascript:void(0)">3</a>
+                            <a class="next" href="javascript:void(0)">Следующая</a>
+                        </div>
+                    </div>
+        </div>
+    </div>
+<!-- Form Write us -->
+    <div class="write-us">
+      <form class="contact-form" action="#" method="post">
+        <div class="half-width">
+          <label for="login-field" class="contact-name">Ваше имя:</label>
+          <input type="text" name="login" id="login-field" placeholder="Представьтесь, пожалуйста" required>
+        </div>
+        <div class="half-width">
+          <label for="email-field" class="contact-email">Ваш e-mail:</label>
+          <input type="email" name="email" id="email-field" placeholder="Для отправки ответа" required>
+        </div>
+        <label for="text-field">Текст письма:</label>
+        <textarea name="contact-text" id="text-field" rows="5">В свободной форме</textarea>
+        <div class="contact-buttons">
+          <input class="btn form-submit-btn" type="submit" value="Отправить">
+          <input class="btn form-esc-btn write-us-close" type="button" value="Отмена">
+        </div>
+      </form>
+    </div>
+    
+<!-- Map -->
+    <div class="map">
+        <div class="layout-center-wrapper clearfix">
+            <div class="map__adds">
+                <p class="map__adds--h1"><strong>NЁRDS</strong> DESIGN STUDIO</p>
+                <p class="map__adds--p">350000, Краснодар,<br>
+                ул. Головатого, 100</p>
+                <p class="map__adds--p">тел. +7 (861) 275-75-75</p>
+                <a class="btn map__adds--btn" href="#">Напишите нам</a>
+            </div>
+        </div>
+    </div>
+<!-- Footer -->
+    <footer class="page-footer layout-center-wrapper clearfix">
+        <div class="page-footer__btn-social">
+            <a href="http://vk.com" class="btn-social btn-social--vk">Вконтакте</a>
+            <a href="http://facebook.com" class="btn-social btn-social--fb">Facebook</a>
+            <a href="http://instagram.com" class="btn-social btn-social--inst">Instagram</a>
+        </div>
+        <div class="page-footer__text">
+            <span class="page-footer__text-p">Давайте дружить, это выгодно!</span>
+            Скидка 10% для друзей из социальных сетей.
+        </div>
+    </footer>
+</body>
+</html>
